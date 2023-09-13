@@ -15,7 +15,7 @@ public class Guia4Extra1 {
         
         Barco B3=new BarcoaMotor(65,"AB204AS",6,2010);
         Alquiler A3=new Alquiler("Daniel",31088043,LocalDate.of(2023, 5, 1),LocalDate.of(2023, 5, 11),3,B3);
-        System.out.println("EL IMPORTE FINAL PARA BARCO A MOTORES ELECTRICOS juan: "+A3.calculoImporteFinal());
+        System.out.println("EL IMPORTE FINAL PARA BARCO A MOTORES ELECTRICOS vela: "+A3.calculoImporteFinal());
         System.out.println("- - - - - - - - - -");
         
         
